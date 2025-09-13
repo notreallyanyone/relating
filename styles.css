@@ -20,3 +20,22 @@ hr { border: none; border-top: 1px solid #ddd; margin: 24px 0; }
 article { margin-top: 8px; }
 article h2 { margin-top: 20px; }
 footer { margin-top: 40px; font-size: .9rem; color: #555; }
+
+
+
+.topnav {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  gap: 2rem;                /* space between links */
+  margin-top: 1rem;
+}
+
+.topnav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
